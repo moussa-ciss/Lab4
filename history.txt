@@ -1,0 +1,556 @@
+    1  q
+    2  a
+    3  aa
+    4  a
+    5  aa
+    6  sudo apt-get install vim
+    7  sudo apt install libssl-dev bison flex
+    8  sudo apt install qt5-default pkg-config
+    9  ls
+   10  *
+   11  ls
+   12  time
+   13  ls
+   14  time
+   15  date
+   16  ls
+   17  date
+   18  ls
+   19  *
+   20  ls
+   21  cd Desktop/
+   22  ls
+   23  *
+   24  ls
+   25  student@ubuntu:~$ sudo apt install git gitk git-email
+   26  [sudo] password for student:
+   27  E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+   28  E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+   29  sudo apt install git gitk git-email
+   30  power off
+   31  sudo reboot
+   32  git pull https://github.com/moussa-ciss/Moussa-Ciss.git
+   33  sudo apt install git gitk git-email
+   34  git config --global user.name"[_moussa]"
+   35  git config --global user.name"_moussa"
+   36  git config --global user.name"moussa"
+   37  git config --global user.name "moussa"
+   38  git config --global user.email cissmoussa7@gmail.com
+   39  git config --global user.email
+   40  git config --global user.name
+   41  mkdir lab2
+   42  touch ciss.txt
+   43  cd Desktop
+   44  mkdir lab2
+   45  touch ciss.txt
+   46  rmdir lab2
+   47  cd lab2
+   48  pwd
+   49  mkdir lab2
+   50  cd lab2
+   51  touch ciss.txt
+   52  cd lab2
+   53  cd ..
+   54  mv ciss.txt 
+   55  mv ciss.txt /home/
+   56  mv ciss.txt 
+   57  rm ciss.txt 
+   58  echo "hello M2 SYSCOM" >> ciss.txt
+   59  cd lab2
+   60  echo "hello M2 SYSCOM" >> ciss.txt
+   61  cd
+   62  cd Desktop
+   63  rm ciss.txt 
+   64  git status
+   65  git add ciss.txt
+   66  git status
+   67  cd lab2
+   68  git status
+   69  git add ciss.txt
+   70  git status
+   71  git commit-m "hello M2 SYSCOM"
+   72  git commit -m "hello M2 SYSCOM"
+   73  git remote add origin https://github.com/moussa-ciss/Moussa-Ciss.git
+   74  git push -u origin master
+   75  git pull
+   76  cd lab2
+   77  git pull
+   78  mv README.md
+   79  ls
+   80  ls .*
+   81  ls
+   82  cd ..
+   83  ls
+   84  cd lab2
+   85  ls
+   86  git init
+   87  ls .*
+   88  ls
+   89  git status 
+   90  git add
+   91  git add .
+   92  ls
+   93  git status 
+   94  git commit -m "bonjour"
+   95  git remote add origin https://github.com/moussa-ciss/TEST.git
+   96  git push -u origin master
+   97  git pull 
+   98  ls
+   99  git pull 
+  100  cd
+  101  ls
+  102  cd home
+  103  git clone https://github.com/moussa-ciss/TEST.git
+  104  cd
+  105  cd Desktop
+  106  mkdir lab3
+  107  cd lab3
+  108  git clone student@ubuntu:~$ sudo apt install git gitk git-email
+  109  [sudo] password for student: 
+  110  Reading package lists... Done
+  111  Building dependency tree       
+  112  Reading state information... Done
+  113  The following additional packages will be installed:
+  114  Suggested packages:
+  115  The following NEW packages will be installed:
+  116  0 upgraded, 11 newly installed, 0 to remove and 414 not upgraded.
+  117  Need to get 6,519 kB of archives.
+  118  After this operation, 42.8 MB of additional disk space will be used.
+  119  Do you want to continue? [Y/n] y
+  120  Get:1 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 liberror-perl all 0.17025-1 [22.8 kB]
+  121  Get:2 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 git-man all 1:2.17.1-1ubuntu0.7 [804 kB]
+  122  Get:3 http://us.archive.ubuntu.com/ubuntu bionic-updates/main amd64 git amd64 1:2.17.1-1ubuntu0.7 [3,915 kB]
+  123  Get:4 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 git-email all 1:2.17.1-1ubuntu0.7 [30.6 kB]
+  124  Get:5 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libtcl8.6 amd64 8.6.8+dfsg-3 [881 kB]
+  125  Get:6 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 libtk8.6 amd64 8.6.8-4 [693 kB]
+  126  Get:7 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 tk8.6 amd64 8.6.8-4 [12.3 kB]
+  127  Get:8 http://us.archive.ubuntu.com/ubuntu bionic/main amd64 tcl8.6 amd64 8.6.8+dfsg-3 [14.4 kB]
+  128  Get:9 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 tcl amd64 8.6.0+9 [5,146 B]
+  129  Get:10 http://us.archive.ubuntu.com/ubuntu bionic/universe amd64 tk amd64 8.6.0+9 [3,178 B]
+  130  Get:11 http://us.archive.ubuntu.com/ubuntu bionic-updates/universe amd64 gitk all 1:2.17.1-1ubuntu0.7 [137 kB]
+  131  Fetched 6,519 kB in 3s (2,290 kB/s)
+  132  Selecting previously unselected package liberror-perl.
+  133  (Reading database ... 174079 files and directories currently installed.)
+  134  Preparing to unpack .../00-liberror-perl_0.17025-1_all.deb ...
+  135  Unpacking liberror-perl (0.17025-1) ...
+  136  Selecting previously unselected package git-man.
+  137  Preparing to unpack .../01-git-man_1%3a2.17.1-1ubuntu0.7_all.deb ...
+  138  Unpacking git-man (1:2.17.1-1ubuntu0.7) ...
+  139  Selecting previously unselected package git.
+  140  Preparing to unpack .../02-git_1%3a2.17.1-1ubuntu0.7_amd64.deb ...
+  141  Unpacking git (1:2.17.1-1ubuntu0.7) ...
+  142  Selecting previously unselected package git-email.
+  143  Preparing to unpack .../03-git-email_1%3a2.17.1-1ubuntu0.7_all.deb ...
+  144  Unpacking git-email (1:2.17.1-1ubuntu0.7) ...
+  145  Selecting previously unselected package libtcl8.6:amd64.
+  146  Preparing to unpack .../04-libtcl8.6_8.6.8+dfsg-3_amd64.deb ...
+  147  Unpacking libtcl8.6:amd64 (8.6.8+dfsg-3) ...
+  148  Selecting previously unselected package libtk8.6:amd64.
+  149  Preparing to unpack .../05-libtk8.6_8.6.8-4_amd64.deb ...
+  150  Unpacking libtk8.6:amd64 (8.6.8-4) ...
+  151  Selecting previously unselected package tk8.6.
+  152  Preparing to unpack .../06-tk8.6_8.6.8-4_amd64.deb ...
+  153  Unpacking tk8.6 (8.6.8-4) ...
+  154  Selecting previously unselected package tcl8.6.
+  155  Preparing to unpack .../07-tcl8.6_8.6.8+dfsg-3_amd64.deb ...
+  156  Unpacking tcl8.6 (8.6.8+dfsg-3) ...
+  157  Selecting previously unselected package tcl.
+  158  Preparing to unpack .../08-tcl_8.6.0+9_amd64.deb ...
+  159  Unpacking tcl (8.6.0+9) ...
+  160  Selecting previously unselected package tk.
+  161  Preparing to unpack .../09-tk_8.6.0+9_amd64.deb ...
+  162  Unpacking tk (8.6.0+9) ...
+  163  Selecting previously unselected package gitk.
+  164  Preparing to unpack .../10-gitk_1%3a2.17.1-1ubuntu0.7_all.deb ...
+  165  Unpacking gitk (1:2.17.1-1ubuntu0.7) ...
+  166  Setting up git-man (1:2.17.1-1ubuntu0.7) ...
+  167  Setting up liberror-perl (0.17025-1) ...
+  168  Setting up libtcl8.6:amd64 (8.6.8+dfsg-3) ...
+  169  Setting up git (1:2.17.1-1ubuntu0.7) ...
+  170  Setting up libtk8.6:amd64 (8.6.8-4) ...
+  171  Setting up git-email (1:2.17.1-1ubuntu0.7) ...
+  172  Setting up tcl8.6 (8.6.8+dfsg-3) ...
+  173  Setting up tk8.6 (8.6.8-4) ...
+  174  Setting up tcl (8.6.0+9) ...
+  175  Setting up tk (8.6.0+9) ...
+  176  Setting up gitk (1:2.17.1-1ubuntu0.7) ...
+  177  Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+  178  Processing triggers for libc-bin (2.27-3ubuntu1) ...
+  179  student@ubuntu:~$ git config --global user.name"[_moussa]"
+  180  error: invalid key: user.name[_moussa]
+  181  student@ubuntu:~$ git config --global user.name"_moussa"
+  182  error: invalid key: user.name_moussa
+  183  student@ubuntu:~$ git config --global user.name"moussa"
+  184  student@ubuntu:~$ git config --global user.email cissmoussa7@gmail.com
+  185  student@ubuntu:~$ git config --global user.email
+  186  cissmoussa7@gmail.com
+  187  student@ubuntu:~$ git config --global user.name
+  188  moussa
+  189  student@ubuntu:~$ mkdir lab2
+  190  student@ubuntu:~$ touch ciss.test^C
+  191  student@ubuntu:~$ mkdir lab2
+  192  mkdir: cannot create directory ‘lab2’: File exists
+  193  student@ubuntu:~$ touch ciss.txt
+  194  student@ubuntu:~$ cd Desktop
+  195  student@ubuntu:~/Desktop$ mkdir lab2
+  196  student@ubuntu:~/Desktop$ touch ciss.txt
+  197  student@ubuntu:~/Desktop$ rmdir lab2
+  198  rmdir: failed to remove 'lab2': No such file or directory
+  199  student@ubuntu:~/Desktop$  rmdir ciss.text
+  200  rmdir: failed to remove 'ciss.text': No such file or directory
+  201  student@ubuntu:~/Desktop$ 
+  202  student@ubuntu:~/Desktop$ cd lab2
+  203  bash: cd: lab2: No such file or directory
+  204  student@ubuntu:~/Desktop$ pwd
+  205  /home/student/Desktop
+  206  student@ubuntu:~/Desktop$ mkdir lab2
+  207  student@ubuntu:~/Desktop$ cd lab2
+  208  student@ubuntu:~/Desktop/lab2$ touch ciss.txt
+  209  student@ubuntu:~/Desktop/lab2$ 
+  210  student@ubuntu:~/Desktop/lab2$ cd lab2
+  211  bash: cd: lab2: No such file or directory
+  212  student@ubuntu:~/Desktop/lab2$ cd ..
+  213  student@ubuntu:~/Desktop$ mv ciss.txt 
+  214  mv: missing destination file operand after 'ciss.txt'
+  215  Try 'mv --help' for more information.
+  216  student@ubuntu:~/Desktop$ mv ciss.txt ^C
+  217  student@ubuntu:~/Desktop$ cd ..^C
+  218  student@ubuntu:~/Desktop$ mv ciss.txt /home/
+  219  mv: cannot move 'ciss.txt' to '/home/ciss.txt': Permission denied
+  220  student@ubuntu:~/Desktop$ mv ciss.txt 
+  221  mv: missing destination file operand after 'ciss.txt'
+  222  Try 'mv --help' for more information.
+  223  student@ubuntu:~/Desktop$ rm ciss.txt 
+  224  student@ubuntu:~/Desktop$ echo "hello M2 SYSCOM" >> ciss.txt
+  225  student@ubuntu:~/Desktop$ cd lab2
+  226  student@ubuntu:~/Desktop/lab2$ echo "hello M2 SYSCOM" >> ciss.txt
+  227  student@ubuntu:~/Desktop/lab2$ ^C
+  228  student@ubuntu:~/Desktop/lab2$ 
+  229  student@ubuntu:~/Desktop/lab2$ cd
+  230  student@ubuntu:~$ cd Desktop
+  231  student@ubuntu:~/Desktop$ rm ciss.txt 
+  232  student@ubuntu:~/Desktop$  git init
+  233  Initialized empty Git repository in /home/student/Desktop/.git/
+  234  student@ubuntu:~/Desktop$ git status
+  235  On branch master
+  236  No commits yet
+  237  Untracked files:
+  238  lab2/
+  239  nothing added to commit but untracked files present (use "git add" to track)
+  240  student@ubuntu:~/Desktop$ git add ciss.txt
+  241  fatal: pathspec 'ciss.txt' did not match any files
+  242  student@ubuntu:~/Desktop$ ^C
+  243  student@ubuntu:~/Desktop$ git status
+  244  On branch master
+  245  No commits yet
+  246  Untracked files:
+  247  lab2/
+  248  nothing added to commit but untracked files present (use "git add" to track)
+  249  student@ubuntu:~/Desktop$ cd lab2
+  250  student@ubuntu:~/Desktop/lab2$ git status
+  251  On branch master
+  252  No commits yet
+  253  Untracked files:
+  254  ./
+  255  nothing added to commit but untracked files present (use "git add" to track)
+  256  student@ubuntu:~/Desktop/lab2$ git add ciss.txt
+  257  student@ubuntu:~/Desktop/lab2$ git status
+  258  On branch master
+  259  No commits yet
+  260  Changes to be committed:
+  261  new file:   ciss.txt
+  262  student@ubuntu:~/Desktop/lab2$ git commit-m "hello M2 SYSCOM"
+  263  git: 'commit-m' is not a git command. See 'git --help'.
+  264  The most similar command is
+  265  commit-tree
+  266  student@ubuntu:~/Desktop/lab2$ git commit -m "hello M2 SYSCOM"
+  267  [master (root-commit) 81fccfe] hello M2 SYSCOM
+  268  student@ubuntu:~/Desktop/lab2$ ^C
+  269  student@ubuntu:~/Desktop/lab2$ git remote add origin https://github.com/moussa-ciss/Moussa-Ciss.git
+  270  student@ubuntu:~/Desktop/lab2$ git push -u origin master
+  271  Username for 'https://github.com': moussa-ciss
+  272  Password for 'https://moussa-ciss@github.com': 
+  273  Counting objects: 4, done.
+  274  Writing objects: 100% (4/4), 272 bytes | 272.00 KiB/s, done.
+  275  Total 4 (delta 0), reused 0 (delta 0)
+  276  To https://github.com/moussa-ciss/Moussa-Ciss.git
+  277  Branch 'master' set up to track remote branch 'master' from 'origin'.
+  278  student@ubuntu:~/Desktop/lab2$ git pull
+  279  Already up to date.
+  280  student@ubuntu:~/Desktop/lab2$ git pull
+  281  remote: Enumerating objects: 4, done.
+  282  remote: Counting objects: 100% (4/4), done.
+  283  remote: Compressing objects: 100% (3/3), done.
+  284  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  285  Unpacking objects: 100% (3/3), done.
+  286  From https://github.com/moussa-ciss/Moussa-Ciss
+  287  Updating 81fccfe..636747b
+  288  Fast-forward
+  289  student@ubuntu:~/Desktop/lab2$ cd lab2
+  290  bash: cd: lab2: No such file or directory
+  291  student@ubuntu:~/Desktop/lab2$ git pull
+  292  Already up to date.
+  293  student@ubuntu:~/Desktop/lab2$ mv README.md
+  294  mv: missing destination file operand after 'README.md'
+  295  Try 'mv --help' for more information.
+  296  student@ubuntu:~/Desktop/lab2$ ls
+  297  ciss.txt
+  298  student@ubuntu:~/Desktop/lab2$ 
+  299  student@ubuntu:~/Desktop/lab2$ ls .*
+  300  .:
+  301  ciss.txt
+  302  ..:
+  303  lab2  README.md
+  304  student@ubuntu:~/Desktop/lab2$ ls
+  305  ciss.txt
+  306  student@ubuntu:~/Desktop/lab2$ 
+  307  student@ubuntu:~/Desktop/lab2$ cd ..
+  308  student@ubuntu:~/Desktop$ ls
+  309  lab2  README.md
+  310  student@ubuntu:~/Desktop$ 
+  311  student@ubuntu:~/Desktop$ cd lab2
+  312  student@ubuntu:~/Desktop/lab2$ ls
+  313  ciss.txt
+  314  student@ubuntu:~/Desktop/lab2$ 
+  315  student@ubuntu:~/Desktop/lab2$ ls
+  316  ciss.txt
+  317  student@ubuntu:~/Desktop/lab2$ 
+  318  student@ubuntu:~/Desktop/lab2$ ls
+  319  ciss.txt
+  320  student@ubuntu:~/Desktop/lab2$ git init
+  321  Initialized empty Git repository in /home/student/Desktop/lab2/.git/
+  322  student@ubuntu:~/Desktop/lab2$ 
+  323  student@ubuntu:~/Desktop/lab2$ ls .*
+  324  .:
+  325  ciss.txt
+  326  ..:
+  327  lab2  README.md
+  328  .git:
+  329  branches  config  description  HEAD  hooks  info  objects  refs
+  330  student@ubuntu:~/Desktop/lab2$ ls
+  331  ciss.txt
+  332  student@ubuntu:~/Desktop/lab2$ git status 
+  333  On branch master
+  334  No commits yet
+  335  Untracked files:
+  336  ciss.txt
+  337  nothing added to commit but untracked files present (use "git add" to track)
+  338  student@ubuntu:~/Desktop/lab2$ git add
+  339  Nothing specified, nothing added.
+  340  Maybe you wanted to say 'git add .'?
+  341  student@ubuntu:~/Desktop/lab2$ git add .
+  342  student@ubuntu:~/Desktop/lab2$ ls
+  343  ciss.txt
+  344  student@ubuntu:~/Desktop/lab2$ git status 
+  345  On branch master
+  346  No commits yet
+  347  Changes to be committed:
+  348  new file:   ciss.txt
+  349  student@ubuntu:~/Desktop/lab2$ 
+  350  student@ubuntu:~/Desktop/lab2$ git commit -m "bonjour"
+  351  [master (root-commit) 26232a0] bonjour
+  352  student@ubuntu:~/Desktop/lab2$ 
+  353  student@ubuntu:~/Desktop/lab2$ git remote add origin https://github.com/moussa-ciss/TEST.git
+  354  student@ubuntu:~/Desktop/lab2$ 
+  355  student@ubuntu:~/Desktop/lab2$ git push -u origin master
+  356  Username for 'https://github.com': moussa-ciss
+  357  Password for 'https://moussa-ciss@github.com': 
+  358  Counting objects: 3, done.
+  359  Writing objects: 100% (3/3), 220 bytes | 220.00 KiB/s, done.
+  360  Total 3 (delta 0), reused 0 (delta 0)
+  361  To https://github.com/moussa-ciss/TEST.git
+  362  Branch 'master' set up to track remote branch 'master' from 'origin'.
+  363  student@ubuntu:~/Desktop/lab2$ git pull 
+  364  remote: Enumerating objects: 4, done.
+  365  remote: Counting objects: 100% (4/4), done.
+  366  remote: Compressing objects: 100% (2/2), done.
+  367  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  368  Unpacking objects: 100% (3/3), done.
+  369  From https://github.com/moussa-ciss/TEST
+  370  Updating 26232a0..2d0cc95
+  371  Fast-forward
+  372  student@ubuntu:~/Desktop/lab2$ 
+  373  student@ubuntu:~/Desktop/lab2$ ls
+  374  ciss.txt  README.md
+  375  student@ubuntu:~/Desktop/lab2$ ls
+  376  ciss.txt  README.md
+  377  student@ubuntu:~/Desktop/lab2$ git pull 
+  378  remote: Enumerating objects: 5, done.
+  379  remote: Counting objects: 100% (5/5), done.
+  380  remote: Compressing objects: 100% (2/2), done.
+  381  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  382  Unpacking objects: 100% (3/3), done.
+  383  From https://github.com/moussa-ciss/TEST
+  384  Updating 2d0cc95..65da6b2
+  385  Fast-forward
+  386  student@ubuntu:~/Desktop/lab2$ git pull 
+  387  remote: Enumerating objects: 5, done.
+  388  remote: Counting objects: 100% (5/5), done.
+  389  remote: Compressing objects: 100% (2/2), done.
+  390  Unpacking objects: 100% (3/3), done.
+  391  remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+  392  From https://github.com/moussa-ciss/TEST
+  393  Updating 65da6b2..de90296
+  394  Fast-forward
+  395  student@ubuntu:~/Desktop/lab2$ cd
+  396  student@ubuntu:~$ ls
+  397  ciss.txt  Documents  examples.desktop  Music     Public     Videos
+  398  Desktop   Downloads  lab2              Pictures  Templates
+  399  student@ubuntu:~$ cd home
+  400  bash: cd: home: No such file or directory
+  401  student@ubuntu:~$ git clone https://github.com/moussa-ciss/TEST.git
+  402  Cloning into 'TEST'...
+  403  remote: Enumerating objects: 12, done.clear
+  404  clear
+  405  git clone https://github.com/khachicha/5AS05-partie3.git
+  406  ls -lrt
+  407  ls -lrt 5AS05-partie3/
+  408  mkdir codes
+  409  cd codes
+  410  echo" total 116
+  411  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  412  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  413  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  414  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  415  "
+  416  echo" total 116
+  417  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  418  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  419  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  420  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  421  " > codes.txt
+  422  echo " total 116
+  423  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  424  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  425  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  426  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  427  "
+  428  echo " total 116
+  429  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  430  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  431  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  432  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  433  " > codes.txt
+  434  student@ubuntu:~/Desktop/lab3$    65da6b2..de90296  master     -> origin/master
+  435  bash: origin/master: No such file or directory
+  436  student@ubuntu:~/Desktop/lab3$ Updating 65da6b2..de90296
+  437  Updating: command not found
+  438  student@ubuntu:~/Desktop/lab3$ Fast-forward
+  439  Fast-forward: command not found
+  440  student@ubuntu:~/Desktop/lab3$  README.md | 2 +-
+  441  2: command not found
+  442  README.md: command not found
+  443  student@ubuntu:~/Desktop/lab3$  1 file changed, 1 insertion(+), 1 deletion(-)
+  444  bash: syntax error near unexpected token `('
+  445  student@ubuntu:~/Desktop/lab3$ student@ubuntu:~/Desktop/lab2$ cd
+  446  bash: student@ubuntu:~/Desktop/lab2$: No such file or directory
+  447  student@ubuntu:~/Desktop/lab3$ student@ubuntu:~$ ls
+  448  student@ubuntu:~$: command not found
+  449  student@ubuntu:~/Desktop/lab3$ ciss.txt  Documents  examples.desktop  Music     Public     Videos
+  450  ciss.txt: command not found
+  451  student@ubuntu:~/Desktop/lab3$ Desktop   Downloads  lab2              Pictures  Templates
+  452  Desktop: command not found
+  453  student@ubuntu:~/Desktop/lab3$ student@ubuntu:~$ cd home
+  454  student@ubuntu:~$: command not found
+  455  student@ubuntu:~/Desktop/lab3$ bash: cd: home: No such file or directory
+  456  Command 'bash:' not found, did you mean:
+  457    command 'bash' from deb bash
+  458  Try: sudo apt install <deb name>
+  459  student@ubuntu:~/Desktop/lab3$ student@ubuntu:~$ git clone https://github.com/moussa-ciss/TEST.git
+  460  student@ubuntu:~$: command not found
+  461  student@ubuntu:~/Desktop/lab3$ Cloning into 'TEST'...
+  462  Cloning: command not found
+  463  student@ubuntu:~/Desktop/lab3$ remote: Enumerating objects: 12, done.clear
+  464  Command 'remote:' not found, did you mean:
+  465    command 'remote' from snap remote (1.09)
+  466  See 'snap info <snapname>' for additional versions.
+  467  student@ubuntu:~/Desktop/lab3$ clear
+  468  student@ubuntu:~/Desktop/lab3$ git clone https://github.com/khachicha/5AS05-partie3.git
+  469  Cloning into '5AS05-partie3'...
+  470  remote: Enumerating objects: 18, done.
+  471  remote: Counting objects: 100% (18/18), done.
+  472  remote: Compressing objects: 100% (14/14), done.
+  473  remote: Total 18 (delta 4), reused 6 (delta 2), pack-reused 0
+  474  Unpacking objects: 100% (18/18), done.
+  475  student@ubuntu:~/Desktop/lab3$ ls -lrt
+  476  total 4
+  477  -rw-r--r-- 1 student student    0 Sep 29 11:51 ciss.txt
+  478  -rw-r--r-- 1 student student    0 Sep 29 11:51 master
+  479  drwxr-xr-x 4 student student 4096 Sep 29 11:53 5AS05-partie3
+  480  student@ubuntu:~/Desktop/lab3$ ls -lrt 5AS05-partie3/
+  481  total 116
+  482  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  483  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  484  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  485  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  486  student@ubuntu:~/Desktop/lab3$ mkdir codes
+  487  student@ubuntu:~/Desktop/lab3$ cd codes
+  488  student@ubuntu:~/Desktop/lab3/codes$ echo" total 116
+  489  > -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  490  > -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  491  > drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  492  > -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  493  > "
+  494  echo total 116
+  495  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  496  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  497  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  498  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  499  : command not found
+  500  student@ubuntu:~/Desktop/lab3/codes$ echo" total 116
+  501  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  502  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  503  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  504  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  505  " > codes.txt
+  506  echo total 116
+  507  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  508  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  509  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  510  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  511  : command not found
+  512  student@ubuntu:~/Desktop/lab3/codes$ echo " total 116
+  513  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  514  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  515  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  516  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  517  "
+  518   total 116
+  519  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  520  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  521  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  522  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  523  student@ubuntu:~/Desktop/lab3/codes$ echo " total 116
+  524  -rw-r--r-- 1 student student    24 Sep 29 11:53 README.md
+  525  -rw-r--r-- 1 student student 34359 Sep 29 11:53 Microsoft
+  526  drwxr-xr-x 2 student student  4096 Sep 29 11:53 sardar
+  527  -rw-r--r-- 1 student student 70408 Sep 29 11:53 answering-machine.txt
+  528  " > codes.txt
+  529  student@ubuntu:~/Desktop/lab3/codes$ 
+  530  cd
+  531  sudo 
+  532  sudo apt install vim
+  533  spi
+  534  cd 
+  535  cd Desktop/
+  536  git status
+  537  git commit -m
+  538  cd Desktop/lab3
+  539  git add .
+  540  git add a
+  541  git status 
+  542  ls
+  543  cd ..
+  544  git status 
+  545  git add lab2
+  546  git status 
+  547  git commit -m "maj"
+  548  cd ..
+  549  mkdir lab4
+  550  cd lab4
+  551  git clone https://github.com/khachicha/5AS05-partie4.git
+  552  ls
+  553  cd 5AS05-partie4/
+  554  ls
+  555  history
+  556  history > history.txt
